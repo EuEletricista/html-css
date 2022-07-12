@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E0AD;
+}
+
+header {
+    background-image: linear-gradient(180deg, #57C888, #2C9A5F, #1A5E39);
+}
+
+header h1 {
+    padding: 16px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 1;
+    
+}
+
+header p {
+    text-indent: 0%;
+    padding-bottom: 16px;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    text-align: center;
+}
+
+header nav {
+    padding-bottom: 5px;
+}
+
+header nav ul li {
+    display: inline;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main, footer {
+    background-color: white;
+    margin: 0% 5% 0% 5%;
+    padding: 3%;
+    box-shadow: 1px -1px 5px 1px;
+
+}
+
+main h1, h2 {
+    font-family: 'MinhaFonte', sans-serif;
+    color: #1A5E39;
+}
+
+p {
+    text-indent: 25px;
+}
+
+#extras {
+    background-color: #57C888;
+    border-radius: 10px;
+    box-shadow: 1px -1px 5px 1px;
+    margin-bottom: 16px;
+
+}
+
+#extras h1 {
+    background-color: #1A5E39;
+    padding: 7px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 1em;
+
+}
+
+#extras p {
+    padding: 10px;
+}
+
+ul {
+    display: inline-block;
+    padding: 0% 10% 0% 5%;
+    list-style-type: "\2714";
+}
+
+#roda-pe{
+    padding: 2px;
+    background-color: #1A5E39;
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+#roda-pe a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#roda-pe a:hover {
+    text-decoration: underline;
+}
+
+.imagem {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.imagem02 {
+    border-color: rgba(0, 0, 0, 0.267);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video {
+    height: 600px;
+    width: 100%;
+}
+
